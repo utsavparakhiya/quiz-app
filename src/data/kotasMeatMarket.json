@@ -1,0 +1,538 @@
+{
+  "draggables": [
+    {
+      "draggableId": 1,
+      "targetId": 1,
+      "value": "Review the data below and determine if Whole Cut Meat and Plant-Based Meat can meet 2023’s revenue target.",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 2,
+      "targetId": 2,
+      "value": "variety of high-quality meats",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 3,
+      "targetId": 3,
+      "value": "three types of meat",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 4,
+      "targetId": 4,
+      "value": "consumer concerns regarding health and the environment continue to grow",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 5,
+      "targetId": 5,
+      "value": "align itself as a brand that promotes these values",
+      "exhaustible": true
+    }
+  ],
+  "targets": [
+    {
+      "targetId": 1,
+      "title": "Target",
+      "draggableId": 1,
+      "type": "string",
+      "constant": 1
+    },
+    {
+      "targetId": 2,
+      "title": "Target",
+      "draggableId": 2,
+      "type": "string",
+      "constant": 2
+    },
+    {
+      "targetId": 3,
+      "title": "Target",
+      "draggableId": 3,
+      "type": "string",
+      "constant": 3
+    },
+    {
+      "targetId": 4,
+      "title": "Target",
+      "draggableId": 4,
+      "type": "string",
+      "constant": 4
+    },
+    {
+      "targetId": 5,
+      "title": "Target",
+      "draggableId": 5,
+      "type": "string",
+      "constant": 5
+    },
+    {
+      "targetId": 6,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 7,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 8,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 9,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 10,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 11,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 12,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 13,
+      "title": "Target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    }
+  ],
+  "editables": [
+    {
+      "editableId": 1,
+      "value": null
+    },
+    {
+      "editableId": 2,
+      "value": null
+    },
+    {
+      "editableId": 3,
+      "value": null
+    },
+    {
+      "editableId": 4,
+      "value": null
+    },
+    {
+      "editableId": 5,
+      "value": null
+    },
+    {
+      "editableId": 6,
+      "value": null
+    }
+  ],
+  "piecharts": [
+    {
+      "qpieId": 1,
+      "data": [
+        { "name": "s_7001_13", "value": 13 },
+        { "name": "s_7002_42", "value": 42 },
+        { "name": "s_7003_27", "value": 27 },
+        { "name": "s_7004_18", "value": 18 }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "tableId": 1,
+      "data": [
+        ["Product Type", "Target"],
+        ["Whole Cut Meat", "c_8001_8900000"],
+        ["Ground Meat", "c_8002_5200000"],
+        ["Lunch Meat", "c_8003_3200000"],
+        ["Plant-Based Meat", "c_8004_3500000"],
+        ["Others", "c_8005_3000000"]
+      ]
+    },
+    {
+      "tableId": 2,
+      "data": [
+        ["Years", "Revenue"],
+        ["2019", "c_8001_11750000"],
+        ["2020", "c_8002_15500000"],
+        ["2021", "c_8003_18000000"],
+        ["2022", "c_8004_19800000"]
+      ]
+    }
+  ],
+  "dynamicTable": {
+    "datasets": ["Sweaters", "T-shirts"],
+    "vars": ["W/ PROMO EST.", "TARGET"],
+    "data": {
+      "Sweaters": {
+        "W/ PROMO EST.": 0,
+        "TARGET": 0
+      },
+      "T-shirts": {
+        "W/ PROMO EST.": 0,
+        "TARGET": 0
+      }
+    }
+  },
+  "dropdowns": [
+    {
+      "dropdownId": 1,
+      "options": ["higher", "lower"],
+      "correctOption": 0,
+      "selectedOption": null
+    },
+    {
+      "dropdownId": 2,
+      "options": ["higher", "lower"],
+      "correctOption": 0,
+      "selectedOption": null
+    }
+  ],
+  "researchJournal": [],
+  "tabs": [
+    { "tabId": 1, "title": "Investigation", "screens": [1, 2, 3, 4, 5] },
+    { "tabId": 2, "title": "Analysis", "screens": [6, 7, 8, 9] },
+    { "tabId": 3, "title": "Report", "screens": [10, 11] }
+  ],
+  "navigation": {
+    "currentStep": 0,
+    "casesStartScreen": 12,
+    "steps": [
+      {
+        "current": 1,
+        "next": 2,
+        "prev": null,
+        "dependency": [],
+        "lockScreen": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        "unlockScreen": [2],
+        "lockTab": [2, 3],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 2,
+        "next": 3,
+        "prev": 1,
+        "dependency": [],
+        "lockScreen": [],
+        "unlockScreen": [3],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 3,
+        "next": 4,
+        "prev": 2,
+        "dependency": [],
+        "lockScreen": [],
+        "unlockScreen": [4],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 4,
+        "next": 5,
+        "prev": 3,
+        "dependency": [],
+        "lockScreen": [],
+        "unlockScreen": [5],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 5,
+        "next": 6,
+        "prev": 3,
+        "dependency": [],
+        "lockScreen": [],
+        "unlockScreen": [6],
+        "lockTab": [],
+        "unlockTab": [2],
+        "hideNavigation": [1, 2, 3, 4, 5]
+      },
+      {
+        "current": 6,
+        "next": 7,
+        "prev": null,
+        "dependency": ["t_8", "t_9"],
+        "lockScreen": [6],
+        "unlockScreen": [7],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 7,
+        "next": 8,
+        "prev": null,
+        "dependency": ["t_10", "t_11"],
+        "lockScreen": [7],
+        "unlockScreen": [8],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 8,
+        "next": 9,
+        "prev": null,
+        "dependency": ["t_12", "t_13"],
+        "lockScreen": [8],
+        "unlockScreen": [9],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 9,
+        "next": 10,
+        "prev": null,
+        "dependency": [],
+        "lockScreen": [9],
+        "unlockScreen": [10],
+        "lockTab": [2],
+        "unlockTab": [3],
+        "hideNavigation": []
+      },
+      {
+        "current": 10,
+        "next": 11,
+        "prev": null,
+        "dependency": ["dd_1", "dd_2"],
+        "lockScreen": [10],
+        "unlockScreen": [11],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      },
+      {
+        "current": 11,
+        "next": 12,
+        "prev": null,
+        "dependency": [],
+        "lockScreen": [10],
+        "unlockScreen": [],
+        "lockTab": [],
+        "unlockTab": [],
+        "hideNavigation": []
+      }
+    ]
+  },
+  "cases": [12],
+  "screens": [
+    {
+      "screenId": 1,
+      "title": "Investigation",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "This report details revenues of 4 meat products.",
+            "Drag only the relevant data into your research journal for the study's objective."
+          ]
+        },
+        {
+          "heading": "Objectives",
+          "paragraphs": ["t_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 2,
+      "title": "Exhibit 1",
+      "content": [
+        {
+          "heading": "Exhibit 1: Kostas Meat Market's revenue breakdown by meat types in 2022 (unit: %)",
+          "paragraphs": ["p_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 3,
+      "title": "Exhibit 2",
+      "content": [
+        {
+          "heading": "Exhibit 2: Target Revenue for Kostas Meat Market by meat types in 2023 (USD)",
+          "paragraphs": ["d_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 4,
+      "title": "Exhibit 3",
+      "content": [
+        {
+          "heading": "Exhibit 3: Kostas Meat Market’s Total Revenue, 2019 – 2022 (USD)",
+          "paragraphs": ["d_2"]
+        }
+      ]
+    },
+    {
+      "screenId": 5,
+      "title": "Study Info",
+      "content": [
+        {
+          "heading": "Study Information",
+          "paragraphs": [
+            "Kostas Meat Market is company that sells t_2 meats in the United States. Kostas Meat Market’ products are primarily sold through grocery stores. While not a very large company, it has strong brand recognition in the packaged meat market and a reputation for high quality products.",
+            "<br>",
+            "Kostas Meat Market’s revenues mainly comes from t_3:",
+            "• Whole Cut Meat",
+            "• Ground Meat",
+            "• Lunch Meat",
+            "<br>",
+            "As t_4, the company is introducing a new product, Plant-Based Meat, to t_5. Consequently, it is anticipated that there will be a decrease in the revenue of Whole Cut Meat, Ground Meat and Lunch Meat.",
+            "<br>",
+            "The estimated effects of the new product launch are as follows:",
+            "• The forecasted 2022 – 2023 revenue growth of Kostas Meat Market will double 2021 – 2022 growth.",
+            "• The projected revenue for Plant-Based Meat in 2023 is expected to comprise 15% of the total revenue.",
+            "• The projected revenue percentages for Whole Cut Meat, Ground Meat, and Lunch Meat will each experience an equal reduction, mirroring the increase observed in the revenue percentage of Plant-Based Meat.",
+            "<br>",
+            "<br>",
+            "<br>"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 6,
+      "title": "Question 1",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "Answer the question, using your Research Journal and the given Calculator."
+          ]
+        },
+        {
+          "heading": "Question",
+          "paragraphs": [
+            "What is estimated revenue of Whole Cut Meat and Plant-Based Meat in 2023, after new product launch?",
+            "Whole Cut Meat: t_8 USD",
+            "Plant-Based Meat: t_9 USD"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 7,
+      "title": "Question 2",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "Answer the question, using your Research Journal and the given Calculator."
+          ]
+        },
+        {
+          "heading": "Question",
+          "paragraphs": [
+            "What is the percentage difference between the estimated revenue after new product launch versus target revenue of Whole Cut Meat and Plant-Based Meat in 2023?",
+            "Whole Cut Meat: t_10 %",
+            "Plant-Based Meat: t_11 %"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 8,
+      "title": "Question 3",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "Answer the question, using your Research Journal and the given Calculator."
+          ]
+        },
+        {
+          "heading": "Question",
+          "paragraphs": [
+            "What is the percentage difference in the revenue and revenue growth after new product launch in 2023 between Whole Cut Meat and Plant-Based Meat?",
+            "Revenue (Whole Cut Meat vs Plant-Based Meat): t_12 %",
+            "Revenue Growth (Whole Cut Meat vs Plant-Based Meat): t_13 %"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 9,
+      "title": "Review",
+      "content": [
+        {
+          "heading": "Analysis Stage Complete",
+          "paragraphs": [
+            "In the Report Stage you will ONLY have access to your Research Journal. You can use the Calculator to edit or make new calculations. You can also navigate back to the Investigation Stage to gather any additional information."
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 10,
+      "title": "Written Report",
+      "content": [
+        {
+          "heading": "Directions:",
+          "paragraphs": [
+            "Determine whether the estimated revenues are higher or lower than the target goals by using the data from the journal.",
+            "<br>",
+            "Given Kostas Meat Market’s reposition its brand to align with consumer’s concern, they have launched a new product, Plant-Based Meat. The target revenue goal in 2023 for Plant-Based Meat is e_1 USD and Whole Cut Meat is e_2 USD. Given the new product launch, the estimated sales in 2023 for Plant-Based Meat is e_3 USD and Whole Cut Meat is e_4 USD.",
+            "<br>",
+            "It can be concluded that:",
+            "Whole Cut Meat’s estimated revenue in 2023 is dd_1 than its targeted goal by e_5%",
+            "Plant-Based Meat’s estimated revenue in 2023 is dd_2 than it’s targeted goal by e_6%"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 11,
+      "title": "Visual Report",
+      "content": [
+        {
+          "heading": "Directions:",
+          "paragraphs": [
+            "Fill in numbers to create a chart that best compares revenue after new product launch and target revenue in 2023 for Whole Cut Meat and Plant-Based Meat.",
+            "td_1"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 12,
+      "title": "Case 1",
+      "content": [
+        {
+          "heading": "Question 1:",
+          "paragraphs": ["placeholder"]
+        }
+      ]
+    }
+  ]
+}

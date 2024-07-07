@@ -1,0 +1,529 @@
+{
+  "draggables": [
+    {
+      "draggableId": 99995,
+      "targetId": 99995,
+      "value": 999,
+      "exhaustible": true
+    },
+    {
+      "draggableId": 99996,
+      "targetId": 99996,
+      "value": 20,
+      "exhaustible": true
+    },
+    {
+      "draggableId": 1,
+      "targetId": 1,
+      "value": "Review the data below and determine if sales of T-shirts and sweaters reach H2 2022's target.",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 2,
+      "targetId": 2,
+      "value": "high-quality essentials for men's wardrobe",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 3,
+      "targetId": 3,
+      "value": "4 items",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 4,
+      "targetId": 4,
+      "value": "cool seasons",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 5,
+      "targetId": 5,
+      "value": "In H2 2022, the contribution of sweaters to average revenues would be an additional 9 percentage points compared to its contribution in H1 2022",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 6,
+      "targetId": 6,
+      "value": "In H2 2022, the contribution of T-shirts to average revenues would be minus 5 percentage points compared to its contribution in H1 2022",
+      "exhaustible": true
+    },
+    {
+      "draggableId": 7,
+      "targetId": 7,
+      "value": "In H2 2022, total revenue growth would be an additional 10 percentage points compared to the growth rate from H2 2021 to H1 2022",
+      "exhaustible": true
+    }
+  ],
+  "targets": [
+    {
+      "targetId": 99991,
+      "title": "Test empty target",
+      "draggableId": null,
+      "type": "any",
+      "constant": null
+    },
+    {
+      "targetId": 99992,
+      "title": "Test empty target",
+      "draggableId": null,
+      "type": "any",
+      "constant": null
+    },
+    {
+      "targetId": 99993,
+      "title": "Test empty target",
+      "draggableId": null,
+      "type": "string",
+      "constant": null
+    },
+    {
+      "targetId": 99994,
+      "title": "Test empty target",
+      "draggableId": null,
+      "type": "string",
+      "constant": null
+    },
+    {
+      "targetId": 99995,
+      "title": "Test empty target",
+      "draggableId": 99995,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 99996,
+      "title": "Test empty target",
+      "draggableId": 99996,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 99997,
+      "title": "Test empty target",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 1,
+      "title": "Target 1",
+      "draggableId": 1,
+      "type": "string",
+      "constant": 1
+    },
+    {
+      "targetId": 2,
+      "title": "Target 2",
+      "draggableId": 2,
+      "type": "string",
+      "constant": 2
+    },
+    {
+      "targetId": 3,
+      "title": "Target 3",
+      "draggableId": 3,
+      "type": "string",
+      "constant": 3
+    },
+    {
+      "targetId": 4,
+      "title": "Target 4",
+      "draggableId": 4,
+      "type": "string",
+      "constant": 4
+    },
+    {
+      "targetId": 5,
+      "title": "Study Information list 1",
+      "draggableId": 5,
+      "type": "string",
+      "constant": 5
+    },
+    {
+      "targetId": 6,
+      "title": "Study Information list 1",
+      "draggableId": 6,
+      "type": "string",
+      "constant": 6
+    },
+    {
+      "targetId": 7,
+      "title": "Study Information list 1",
+      "draggableId": 7,
+      "type": "string",
+      "constant": 7
+    },
+    {
+      "targetId": 8,
+      "title": "Question 1 Tshirts",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 9,
+      "title": "Question 1 Sweaters",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 10,
+      "title": "Question 2 Tshirts",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 11,
+      "title": "Question 2 Sweaters",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    },
+    {
+      "targetId": 12,
+      "title": "Question 3 Anns order",
+      "draggableId": null,
+      "type": "number",
+      "constant": null
+    }
+  ],
+  "piecharts": [
+    {
+      "qpieId": 1,
+      "data": [
+        { "name": "s_7004_19", "value": 19 },
+        { "name": "s_7005_9", "value": 9 },
+        { "name": "s_7001_3", "value": 3 },
+        { "name": "s_7002_47", "value": 47 },
+        { "name": "s_7003_22", "value": 22 }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "tableId": 1,
+      "data": [
+        ["Product Type", "Target"],
+        ["T-shirt", "c_8001_8930000"],
+        ["Jeans", "c_8002_5000000"],
+        ["Shorts", "c_8003_4500000"],
+        ["Sweaters", "c_8004_1962000"],
+        ["Others", "c_8005_700000"],
+        ["Total", "c_8006_21092000"]
+      ]
+    },
+    {
+      "tableId": 2,
+      "data": [
+        ["Product Type", "H2 2020", "H1 2021", "H2 2021", "H1 2022"],
+        [
+          "T-shirt",
+          "c_8007_3400000",
+          "c_8008_4500000",
+          "c_8009_7400000",
+          "c_8010_940000"
+        ],
+        [
+          "Jeans",
+          "c_8011_2400000",
+          "c_8012_2900000",
+          "c_8013_3600000",
+          "c_8014_4400000"
+        ],
+        [
+          "Shorts",
+          "c_8015_2800000",
+          "c_8016_3000000",
+          "c_8017_3500000",
+          "c_8018_3800000"
+        ],
+        [
+          "Sweaters",
+          "c_8019_1800000",
+          "c_8020_1800000",
+          "c_8021_1800000",
+          "c_8022_1800000"
+        ],
+        [
+          "Others",
+          "c_8023_300000",
+          "c_8024_400000",
+          "c_8025_500000",
+          "c_8026_600000"
+        ],
+        [
+          "Total",
+          "c_8027_10070000",
+          "c_8028_12600000",
+          "c_8029_16800000",
+          "c_8030_20000000"
+        ]
+      ]
+    },
+    {
+      "tableId": 3,
+      "data": [
+        [
+          "",
+          "OPTION 1: SELLING IT HERSELF",
+          "OPTION 2: SELLING THROUGH RESELLER"
+        ],
+        ["Reselling price (US$)", "c_8031_1850", "c_8032_2100"],
+        ["Commission rate (%)", "c_8033_0", "c_8034_30"],
+        ["Chance of successful reselling (%)", "c_8035_50", "c_8036_80"],
+        ["Non-refundable fee (US$)", "c_8037_0", "c_8038_200"],
+        ["Maximum period for sale (months)", "c_8039_6", "c_8040_6"]
+      ]
+    }
+  ],
+  "dropdowns": [
+    {
+      "dropdownId": 1,
+      "options": [
+        "A. Option 1",
+        "B. Option 2",
+        "Insufficent information to answer"
+      ],
+      "correctOption": 0,
+      "selectedOption": null
+    }
+  ],
+  "researchJournal": [],
+  "tabs": [
+    { "tabId": 1, "title": "Investigation", "screens": [1, 2, 3, 4, 5] },
+    { "tabId": 2, "title": "Analysis", "screens": [6, 7, 8, 9] },
+    { "tabId": 3, "title": "Report", "screens": [10, 11, 12] }
+  ],
+  "cases": [13, 14, 15],
+  "screens": [
+    {
+      "screenId": 1,
+      "title": "Objective",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "This report details the revenues of four items.",
+            "Drag only the relevant data into your research journal for the study's objective."
+          ]
+        },
+        {
+          "heading": "Objectives",
+          "paragraphs": ["t_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 2,
+      "title": "Exhibit 1",
+      "content": [
+        {
+          "heading": "Exhibit 1: Cool Top's average revenue breakdown by items in H1 2022 (unit: %)",
+          "paragraphs": ["p_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 3,
+      "title": "Exhibit 2",
+      "content": [
+        {
+          "heading": "Exhibit 2: Target sales for Cool Top by items, H2 2022 (USD)",
+          "paragraphs": ["d_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 4,
+      "title": "Exhibit 3",
+      "content": [
+        {
+          "heading": "Exhibit 3: Average sales of Cool Top by items, 2020 - 2022 (USD)",
+          "paragraphs": ["d_2"]
+        }
+      ]
+    },
+    {
+      "screenId": 5,
+      "title": "Study Info",
+      "content": [
+        {
+          "heading": "Study Information",
+          "paragraphs": [
+            "Cool Top is a website selling t_2 Operating under the D2C (direct-to-consumer) model through its self-developed e-commerce store, Cool Top has been progressing by leaps and bounds towards its goal of sustained growth.",
+            "<br>",
+            "In H1 2022, Cool Top's average revenues mainly come from t_3 ",
+            "• T-shirts",
+            "• Jeans",
+            "• Shorts",
+            "• Sweaters",
+            "Annual sales report indicate that T-shirt generates the highest revenues for Cool Top. However, Cool Top realizes that revenues started to plunge in t_4 and significantly fewer orders have been made. The company, therefore, has decided on a large-scale discounts for any orders of sweaters to sustain growth all year round. They hope this promotion would boost the sales of sweaters and as a result, there will be an expected decrease in the sales of a flagship product - T-shirts - during cool months.",
+            "<br>",
+            "The estimated effects of the promotions are as follows:",
+            "t_5",
+            "t_6",
+            "t_7"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 6,
+      "title": "Question 1",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "Answer the question, using your Research Journal and the given Calculator."
+          ]
+        },
+        {
+          "heading": "Question",
+          "paragraphs": [
+            "What are the estimated revenues for the sales of T-shirts and sweaters in H2 2022?",
+            "T-shirts: t_8",
+            "Sweaters: t_9"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 7,
+      "title": "Question 2",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "Answer the question, using your Research Journal and the given Calculator."
+          ]
+        },
+        {
+          "heading": "Question",
+          "paragraphs": [
+            "What are the percentage difference between estimated revenue after promotion versus target revenue of sweaters and T-shirts in H2 2022?",
+            "T-shirts: t_10",
+            "Sweaters: t_11"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 8,
+      "title": "Question 3",
+      "content": [
+        {
+          "heading": "Directions",
+          "paragraphs": [
+            "Answer the question, using your Research Journal and the given Calculator."
+          ]
+        },
+        {
+          "heading": "Question",
+          "paragraphs": [
+            "Ann is a loyal customer of Cool Top. Her order includes 5 T-shirts at a price of $2, 3 pairs of shorts at $1.5, 2 pairs of jeans at $4, and 4 sweaters at 5$. What is the average price for Ann's order?",
+            "Average price of Ann’s order: t_12 USD"
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 9,
+      "title": "Review",
+      "content": [
+        {
+          "heading": "Analysis Stage Complete",
+          "paragraphs": [
+            "In the Report Stage you will ONLY have access to your Research Journal. You can use the Calculator to edit or make new calculations. You can also navigate back to the Investigation Stage to gather any additional information."
+          ]
+        }
+      ]
+    },
+    {
+      "screenId": 10,
+      "title": "Written Report",
+      "content": [
+        {
+          "heading": "Placeholder Text",
+          "paragraphs": ["Placeholder paragraph"]
+        }
+      ]
+    },
+    {
+      "screenId": 11,
+      "title": "Graph Selection",
+      "content": [
+        {
+          "heading": "Placeholder Text",
+          "paragraphs": ["Placeholder paragraph"]
+        }
+      ]
+    },
+    {
+      "screenId": 12,
+      "title": "Visual Report",
+      "content": [
+        {
+          "heading": "Placeholder Text",
+          "paragraphs": ["Placeholder paragraph"]
+        }
+      ]
+    },
+    {
+      "screenId": 13,
+      "title": "Case 1",
+      "content": [
+        {
+          "heading": "Directions:",
+          "paragraphs": [
+            "Quiet luxury is the dominant fashion trend in 2023. It emphasizes high-end designs, excellent quality, and modesty. This fashion trend is often associated with sustainability and ethical practices, avoiding flashy logos and branding and preferring to let their products speak for themselves. Some typical brands associated with quiet luxury include Loro Piana, Bottega Veneta, and Brunello Cucinelli.",
+            "<br>",
+            "Anna is a fashionista with a hobby of shopping for trendy brands. She spent $ c_6001_2500 for a logogram bag from a well-known brand a year ago. A logogram item is a fashion item that prominently displays the logo of a designer or brand, often seen as a way to show off one's wealth and status because they can be fairly expensive. Now, a new bag of the same model is worth $ c_6002_2700.",
+            "<br>",
+            "Anna currently wants to sell this bag in order to pursue the quiet luxury style. She was aware that after a year of ownership, the value of a luxury bag often decreases by c_6003_30 %. She is wondering whether she should sell it herself or seek the assistance of a reseller.",
+            "<br>",
+            "The table below shows two selling options that she is considering.",
+            "<br>",
+            "Note: ",
+            "• 'Chance of successful reselling' in this table is calculated in the same period.",
+            "• 'Non-refundable fee' is the fee that is paid to a reseller in exchange for their services in trying to sell an item. If the item is not sold in the specified period for sales, the fee is not returned to the person who paid it."
+          ]
+        },
+        {
+          "heading": "Exhibit 01.1: Bag resell options available to Anna",
+          "paragraphs": ["d_3"]
+        },
+        {
+          "heading": "Question:",
+          "paragraphs": ["Which option is more profitable?"]
+        },
+        {
+          "heading": "Answer:",
+          "paragraphs": ["dd_1"]
+        }
+      ]
+    },
+    {
+      "screenId": 14,
+      "title": "Case 2",
+      "content": [
+        {
+          "heading": "Question 2",
+          "paragraphs": ["Placeholder paragraph"]
+        }
+      ]
+    },
+    {
+      "screenId": 15,
+      "title": "Case 3",
+      "content": [
+        {
+          "heading": "Question 3",
+          "paragraphs": ["Placeholder paragraph"]
+        }
+      ]
+    }
+  ]
+}
